@@ -1,0 +1,9 @@
+PUT http://localhost:3003/api/blogs/652fd8973c4a4db29e68281d
+
+{
+    
+      "title": "glfghfsd",
+      "author": "Robert C. Martin",
+      "url": "http://blog.cleancoder.com/uncle-bob/2016/05/01/TypeWars.html",
+      "__v": 0
+    }
