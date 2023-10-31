@@ -1,0 +1,290 @@
+* {
+  box-sizing: border-box;
+  color: #292323;
+}
+
+body {
+  margin: 0;
+}
+.error {
+  color: white;
+  background: red;
+  font-size: 40px;
+  font-weight: bold;
+  width: 100%;
+  border: none;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  text-align: center;
+}
+
+.success {
+  color: white;
+  background: green;
+  font-size: 40px;
+  font-weight: bold;
+  width: 100%;
+  border: none;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  text-align: center;
+}
+
+.active {
+  color:white;
+  background: rgb(197, 8, 8);
+}
+
+.likeButton {
+  background-color: rgb(84, 39, 128);
+  color: white;
+  border: none;
+  border-radius: 25px;
+}
+
+
+.navBar {
+  background-color: rgb(223, 120, 23);
+  height: 40px;
+  margin: 0;
+  font-weight: lighter;
+  position: relative;
+}
+
+#logout-button {
+  background: Bisque;
+  font-size: 1em;
+  border: none;
+  color: rgb(95, 27, 27);
+  font-weight: bold;
+  height: 40px;
+}
+
+.navLink {
+  padding: 0.6em;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  color: rgb(243, 240, 240);
+  font-weight: bold;
+}
+
+.link {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.navLink:hover {
+  background-color: rgba(255, 255, 255, +.3);
+}
+
+.page-header {
+  margin: 0.5em;
+  text-align: center;
+  font-size: 3em;
+  color: #3f3b3b;
+}
+
+.content-header {
+  margin: 1em;
+  padding: 5px;
+  font-size: 2em;
+  color: #3f3b3b;
+}
+
+.table {
+  width: 100%;
+}
+
+.table tr:nth-child(even) {
+  background-color: #ddd;
+}
+
+.table th {
+  font-size: 1.5em;
+  background-color: rgb(223, 120, 23);
+}
+
+.table td {
+  text-align: center;
+  padding: 0.6em;
+}
+
+.user-info {
+  padding-right: 0.5em;
+  margin: 0;
+  font-size: 1.3em;
+  color: white;
+}
+
+.user-container {
+  position:absolute;
+  right: 0;
+  top:0;
+  margin: 0;
+  padding: 0;
+  height: 40px;
+}
+
+.btn {
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.6em;
+  cursor: pointer;
+}
+
+.btn-open {
+  color: white;
+  background-color: rgb(161, 161, 241);
+  border: none;
+  border-radius: 0.3em;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.btn-create {
+  color: white;
+  background-color: rgb(161, 161, 241);
+  border: none;
+  border-radius: 0.3em;
+  font-weight: bold;  
+}
+
+.btn-close {
+  color: rgb(161, 161, 241);
+  border-color:  rgb(161, 161, 241);
+  border-radius: 0.3em;
+  border-style: solid;
+  font-weight: bold; 
+}
+
+.btn-remove {
+  color:rgb(148, 71, 26);
+  border-color:  rgb(148, 71, 26);
+  border-radius: 0.3em;
+  border-style: solid;
+  font-weight: bold;
+}
+
+.btn-open:hover {
+  background-color: rgb(168, 192, 238);
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+
+.blog-row {
+  border-bottom: 1px solid black;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+
+.blog-row:last-child {
+  border-bottom: none;
+}
+
+.blog-item {
+  display: inline-block;
+  padding-right: 0.5em;
+}
+
+.blog-link {
+  width: 55%;
+}
+
+.blog-author {
+  width: 35%;
+}
+
+.blog-likes {
+  width: 7%;
+  text-align: right;
+}
+
+.user-link {
+  width: 50%;
+}
+
+.user-author {
+  width: 27%;
+}
+
+.user-likes {
+  width: 8%;
+  text-align: right;
+}
+
+.user-remove {
+  margin-left: 4.5em;
+  max-width: 10%;
+  text-align: right;
+}
+
+.create-blog {
+  background-color: rgb(241, 232, 217);
+  border: 1px solid #292828;
+  border-radius: 0.5rem;
+  max-width: 600px;
+  margin: 1em auto;
+  padding: .5em;
+}
+
+.login-container {
+  background-color: beige;
+  width: 400px;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: .5em;
+  padding: 1em;
+  position: absolute; 
+  left: 0; 
+  right: 0;
+  top: 0; 
+  bottom: 0;
+  margin-left: auto; 
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5em;
+  gap: 0.25em;
+}
+
+.form-group > label {
+  font-weight: bold;
+  color: #3f3b3b;
+}
+
+.form-group > input {
+  border: 1px solid #302c2c;
+  border-radius: .25em;
+  font-size: 1.2rem;
+  padding: 8px 16px;
+}
+
+.hide {
+  display: none;
+}
+
+.show-container {
+  padding: 1em;
+  padding-bottom: 2em;
+  text-align: center;
+}
+
+.login-title {
+  text-align: center;
+}

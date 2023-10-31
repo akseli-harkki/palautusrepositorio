@@ -1,0 +1,9 @@
+PUT http://localhost:3003/api/users/652fd8303c4a4db29e682817
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InN0YWxpbiIsImlkIjoiNjUyZmQ4MzAzYzRhNGRiMjllNjgyODE3IiwiaWF0IjoxNjk3NzA1NjE1LCJleHAiOjE2OTc3MDkyMTV9.gq6sYyREQmODWBfY3bEgHvhv-e-wzy55copmDtd1zC0
+
+{
+  "username": "wannabeLenin",
+  "name": "Joseph Jughashvili",
+  "password": "salasana123"
+}
