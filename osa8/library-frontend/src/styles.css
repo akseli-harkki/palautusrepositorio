@@ -1,0 +1,86 @@
+
+
+:root {
+  --theme-color: rgb(233, 168, 28);
+}
+
+* {
+  box-sizing: border-box;
+  color: #292323;
+}
+
+body {
+  margin: 0;
+}
+
+.navBar {
+  background-color: var(--theme-color);
+  height: 40px;
+  margin: 0;
+  font-weight: lighter;
+  position: relative;
+}
+
+.navLink {
+  padding: 0.6em;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  color: rgb(27, 5, 5);
+  font-weight: bold;
+}
+
+.navLink:hover {
+  background-color: rgba(255, 255, 255, +.3);
+}
+.user-info {
+  padding-right: 0.5em;
+  margin: 0;
+  font-size: 1.3em;
+  color: white;
+}
+
+.user-container {
+  position:absolute;
+  right: 0;
+  top:0;
+  margin: 0;
+  padding: 0;
+  height: 40px;
+}
+
+.btn-logout {
+  background: Bisque;
+  font-size: 1em;
+  border: none;
+  color: rgb(95, 27, 27);
+  font-weight: bold;
+  height: 40px;
+}
+
+.btn {
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.6em;
+  cursor: pointer;
+}
+
+.genres input {
+  display: none;
+}
+
+.genres span {
+  display: inline-block;
+  padding: .5em;
+  margin: .2em;
+  text-transform: uppercase;
+  border: 2px solid var(--theme-color);
+  border-radius: 3px;
+  color: var(--theme-color);
+  cursor: pointer;
+}
+
+.genres input:checked + span {
+  background-color: var(--theme-color);
+  color: black;
+}
